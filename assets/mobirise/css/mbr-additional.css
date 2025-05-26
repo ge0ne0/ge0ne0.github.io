@@ -63,6 +63,19 @@ body {
 .display-7 > .mbr-iconfont {
   font-size: 1.75rem;
 }
+.lang-switcher {
+  display: flex;
+  gap: 8px;
+}
+.flag-button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+.flag-button img {
+  display: block;
+}
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
 /* 100vw - current viewport width */
