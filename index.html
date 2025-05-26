@@ -213,9 +213,9 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://api.web3forms.com/submit" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="143c7121-73fa-45a2-9f45-6bf375ecd28a">
+                <form action="https://api.web3forms.com/submit" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="access_key" value="143c7121-73fa-45a2-9f45-6bf375ecd28a">
                     <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12"><input type="hidden" name="redirect" value="https://web3forms.com/success">Thanks for filling out the form!</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
                             Oops...! there seems to be a problem!
                         </div>
@@ -227,12 +227,13 @@
                         <div class="col-md col-sm-12 form-group mb-3" data-for="email">
                             <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-form-3-uMjmwRMStV">
                         </div>
-                        <div class="col-12 form-group mb-3 mb-3" data-for="url">
+                        <div class="col-12 form-group mb-3 mb-3" data-for="phone">
                             <input type="phone" name="phone" placeholder="Phone" data-form-field="phone" class="form-control" value="" id="phone-contact-form-3-uMjmwRMStV">
                         </div>
-                        <div class="col-12 form-group mb-3" data-for="textarea">
+                        <div class="col-12 form-group mb-3" data-for="message">
                             <textarea name="message" placeholder="Message" data-form-field="message" class="form-control" id="textarea-contact-form-3-uMjmwRMStV"></textarea>
                         </div>
+			<input type="checkbox" name="botcheck" id="" style="display: none;">
                         <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-secondary">Send Message</button></div>
                     </div>
                 </form>
