@@ -63,31 +63,6 @@ body {
 .display-7 > .mbr-iconfont {
   font-size: 1.75rem;
 }
-.lang-switcher {
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-.lang-switcher:hover .dropdown-content {
-  display: block;
-}
-.flag-button {
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-}
-.flag-button img {
-  display: block;
-}
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
 /* 100vw - current viewport width */
