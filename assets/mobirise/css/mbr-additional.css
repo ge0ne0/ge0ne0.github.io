@@ -56,6 +56,7 @@ body {
 }
 .display-7 {
   font-family: 'Liter', sans-serif;
+  display:none;
   font-size: 1.4rem;
   line-height: 1.3;
 }
