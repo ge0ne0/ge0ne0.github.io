@@ -64,8 +64,20 @@ body {
   font-size: 1.75rem;
 }
 .lang-switcher {
-  display: flex;
-  gap: 8px;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.lang-switcher:hover .dropdown-content {
+  display: block;
 }
 .flag-button {
   border: none;
@@ -1407,17 +1419,17 @@ a {
 .cid-uMjmwRJ8aL .mbr-section-title,
 .cid-uMjmwRJ8aL .mbr-section-subtitle {
   text-align: center;
-  color: #ffc091;
+  color: #fff;
 }
 .cid-uMjmwRJ8aL .mbr-text,
 .cid-uMjmwRJ8aL .mbr-section-btn {
   text-align: center;
 }
 .cid-uMjmwRJ8aL .mbr-section-title {
-  color: #ffe640;
+  color: #fff;
 }
 .cid-uMjmwRJ8aL .mbr-section-subtitle {
-  color: #DA9F93;
+  color: #fff;
 }
 .cid-uMjmwRJPIN {
   padding-top: 5rem;
