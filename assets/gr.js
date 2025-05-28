@@ -22,7 +22,6 @@ name.addEventListener('input', function() {
   if (name.validity.valueMissing) {
     name.setCustomValidity(messages['gr'].required);
   }
-}
 });
 
 email.addEventListener('input', function() {
@@ -43,7 +42,6 @@ phone.addEventListener('input', function() {
   } else if (phone.validity.patternMismatch) {
     phone.setCustomValidity(messages['gr'].pattern);
   }
-}
 });
 
 message.addEventListener('input', function() {
@@ -51,7 +49,6 @@ message.addEventListener('input', function() {
   if (message.validity.valueMissing) {
     message.setCustomValidity(messages['gr'].required);
   }
-}
 });
 
 form.addEventListener('submit', function(event) {
