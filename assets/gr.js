@@ -11,9 +11,13 @@ const messages = {
 
 const form = document.getElementById('myForm');
 const name = document.getElementById('name-contact-form-3-uMjmwRMStV');
+name.setCustomValidity(messages['gr'].required);
 const email = document.getElementById('email-contact-form-3-uMjmwRMStV');
+email.setCustomValidity(messages['gr'].required);
 const phone = document.getElementById('phone-contact-form-3-uMjmwRMStV')
+phone.setCustomValidity(messages['gr'].required);
 const message = document.getElementById('textarea-contact-form-3-uMjmwRMStV')
+message.setCustomValidity(messages['gr'].required);
 
 const messageFailure = document.getElementById('messageFailure');
 
