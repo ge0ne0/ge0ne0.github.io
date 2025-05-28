@@ -1,4 +1,3 @@
-<script>
 const messages = {
   gr: {
     failure: "Παρακαλώ συμπληρώστε όλα τα πεδία.",
@@ -71,4 +70,3 @@ form.addEventListener('submit', function(event) {
     messageFailure.hidden = false;
   }
 });
-</script>
