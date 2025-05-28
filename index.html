@@ -284,8 +284,12 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+            <div class="col-lg-8 mx-auto mbr-form">
                 <form action="https://api.web3forms.com/submit" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="access_key" value="f8bab11b-9413-4977-bd32-fd6e917b3095">
+		    <div class="row">
+                        <div hidden="hidden" class="alert alert-success col-12" id="messageSuccess">Thanks for filling out the form!</div>
+                        <div hidden="hidden" class="alert alert-danger col-12" id="messageFailure">Oops...! there was some problem!</div>
+                    </div>
                     <div class="dragArea row">
                         <div class="col-md col-sm-12 form-group mb-3" data-for="name">
                             <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-contact-form-3-uMjmwRMStV" required>
