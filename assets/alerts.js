@@ -5,6 +5,13 @@ const messages = {
     pattern: "Παρακαλώ αντιστοιχίστε τούς ζητούμενους χαρακτήρες ##-######",
     tMismatch: "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email.",
     pMismatch: "Παρακαλώ αντιστοιχίστε τούς ζητούμενους χαρακτήρες xxx@xxx.xxx"
+  },
+  en: {
+    failure: "Please fill out all fields.",
+    required: "Please fill out this field.",
+    pattern: "Please match the correct format ##-######",
+    tMismatch: "Please enter a valid email address.",
+    pMismatch: "Please match the correct format xxx@xxx.xxx"
   }
   // Add more languages as needed
 };
