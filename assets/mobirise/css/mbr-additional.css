@@ -1426,8 +1426,7 @@ a {
   background-color: #ffe640;
 }
 .cid-uMjruQv0bZ img,
-.cid-uMjruQv0bZ .item-img
-.cid-uMjruQv0bZ .item-video {
+.cid-uMjruQv0bZ .item-img {
   width: 100%;
   height: 100%;
   height: 400px;
@@ -1435,8 +1434,17 @@ a {
 }
 @media (max-width: 767px) {
   .cid-uMjruQv0bZ img,
-  .cid-uMjruQv0bZ .item-img
-  .cid-uMjruQv0bZ .item-video {
+  .cid-uMjruQv0bZ .item-img {
+    max-height: 300px;
+  }
+}
+.videoMedia {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .videoMedia {
     max-height: 300px;
   }
 }
