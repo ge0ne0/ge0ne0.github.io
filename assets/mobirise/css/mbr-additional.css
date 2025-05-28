@@ -1426,7 +1426,8 @@ a {
   background-color: #ffe640;
 }
 .cid-uMjruQv0bZ img,
-.cid-uMjruQv0bZ .item-img {
+.cid-uMjruQv0bZ .item-img
+.cid-uMjruQv0bZ .item-video {
   width: 100%;
   height: 100%;
   height: 400px;
@@ -1434,7 +1435,8 @@ a {
 }
 @media (max-width: 767px) {
   .cid-uMjruQv0bZ img,
-  .cid-uMjruQv0bZ .item-img {
+  .cid-uMjruQv0bZ .item-img
+  .cid-uMjruQv0bZ .item-video {
     max-height: 300px;
   }
 }
