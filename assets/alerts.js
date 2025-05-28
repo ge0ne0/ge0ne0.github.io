@@ -17,7 +17,7 @@ const messages = {
 };
 
 const pathArray = window.location.pathname.split('/');
-const lang = pathArray[1] == 'gr' ? 'gr' : 'en';
+const lang = pathArray[pathArray.length - 2] == 'gr' ? 'gr' : 'en';
 
 const form = document.getElementById('myForm');
 const name = document.getElementById('name-contact-form-3-uMjmwRMStV');
